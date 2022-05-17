@@ -89,7 +89,8 @@
                     - Original distribution
 ![](/Images/IncomeAmtOriginalDistribution.png)
 
-                    - Post consolidation distribution![](/Images/IncomeAmtPostConsolidationDistribution.png)
+                    - Post consolidation distribution
+![](/Images/IncomeAmtPostConsolidationDistribution.png)
 
 
 
@@ -100,7 +101,7 @@
             - Reason for introducing tanh is appropriate for classification between two classes
             - Epochs reduced from 200 to 25 to avoid overfitting
 
-    - Optimized accuracy improved and exceeds 75%, the target threshold
+        - Optimized accuracy improved and exceeds 75%, the target threshold
 ![](/Images/OptimizedAccuracy.png)
 
     
