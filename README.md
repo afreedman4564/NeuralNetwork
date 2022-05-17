@@ -89,8 +89,7 @@
                     - Original distribution
 ![](/Images/IncomeAmtOriginalDistribution.png)
 
-                    - Post consolidation distribution
-![](/Images/IncomeAmtPostConsolidationDistribution.png)
+                    - Post consolidation distribution![](/Images/IncomeAmtPostConsolidationDistribution.png)
 
 
 
