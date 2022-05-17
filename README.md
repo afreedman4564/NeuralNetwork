@@ -102,7 +102,7 @@
             - Epochs reduced from 200 to 25 to avoid overfitting
 
     - Optimized accuracy improved and exceeds 75%, the target threshold
-![](/Images/PreliminaryModelAccuracy.png)
+![](/Images/OptimizedAccuracy.png)
 
     
 
