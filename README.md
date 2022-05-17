@@ -24,20 +24,20 @@
     - Application Type streamline
         - Consolidate Application Types with with frequency less than 500
         - Application Type distribution prior to consolidation
-        ![](/Images/ApplicationTypeOriginal.png)
+![](/Images/ApplicationTypeOriginal.png)
 
         - Application Type distribution post consolidation
-        ![](/Images/ApplicationTypePreprocessing.png)
+![](/Images/ApplicationTypePreprocessing.png)
 
 
     - Classification steamline
         - Consolidate Classification valuest with less than 1,000 frequency
         - Classification distribution prior to consolidation
-        ![](/Images/ClassificationOriginal.png)
+![](/Images/ClassificationOriginal.png)
 
 
         - Classification distribution post consolidation
-        ![](/Images/ClassificationPreprocessing.png)
+![](/Images/ClassificationPreprocessing.png)
 
 
     - Leverage get_dummies function to convert categorical text values to numbers
