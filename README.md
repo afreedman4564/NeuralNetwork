@@ -63,7 +63,7 @@
 
 ### Model Evaluation
     - Model target of 75% accuracy was not achieved in the original run
-    (/Images/PreliminaryModelAccuracy.png)
+    ![](/Images/PreliminaryModelAccuracy.png)
 
 
     - Improvements made to improve model performance:
@@ -82,15 +82,15 @@
                     ![](/Images/NameOriginalDistribution.png)
 
                     - Post consolidation distribution
-                    ![](/images/NameOriginalDistribution.png)
+                    ![](/Images/NameOriginalDistribution.png)
 
 
                 - INCOME_AMT
                     - Original distribution
-                    ![](/images/IncomeAmtOriginalDistribution.png)
+                    ![](/Images/IncomeAmtOriginalDistribution.png)
 
                     - Post consolidation distribution
-                    ![](/images/IncomeAmtPostConsolidationDistribution.png)
+                    ![](/Images/IncomeAmtPostConsolidationDistribution.png)
 
 
 
