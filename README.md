@@ -63,7 +63,7 @@
 
 ### Model Evaluation
     - Model target of 75% accuracy was not achieved in the original run
-        ![](/Images/PreliminaryModelAccuracy.png))
+        ![](/Images/PreliminaryModelAccuracy.png)
 
 
     - Improvements made to improve model performance:
