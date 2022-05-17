@@ -42,11 +42,11 @@
 
     - Leverage get_dummies function to convert categorical text values to numbers
     - Illustrative snipit of get_dummies output
-    ![](/Images/get_dummies_output.png)
+![](/Images/get_dummies_output.png)
 
 
     - Use StandardScaler function to scale feature data post Application Type and Classification consolidation, along with get_dummies transformation
-    ![](/Images/XTrainedScaled.png)
+![](/Images/XTrainedScaled.png)
 
 
 ### Model Training
@@ -63,7 +63,7 @@
 
 ### Model Evaluation
     - Model target of 75% accuracy was not achieved in the original run
-        ![](/Images/PreliminaryModelAccuracy.png)
+![](/Images/PreliminaryModelAccuracy.png)
 
 
     - Improvements made to improve model performance:
@@ -71,18 +71,18 @@
             - Dropped EIN, STATUS, and SPECIAL_CONSIDERATIONS
                 -STATUS and SPECIAL_CONSIDERATIONS distributions values were unilateral, impacting success little
                     - STATUS distribution
-                    ![](/Images/StatusDistribution.png)
+![](/Images/StatusDistribution.png)
 
                     - SPECIAL_CONSIDERATIONS distribution
-                    ![](/Images/SpecialConsiderationsDistribution.png)
+![](/Images/SpecialConsiderationsDistribution.png)
 
             - Consolidated NAME and INCOME_AMT to better distribute values to make easier for machine to learn
                 - NAME
                     - Original distribution
-                    ![](/Images/NameOriginalDistribution.png)
+![](/Images/NameOriginalDistribution.png)
 
                     - Post consolidation distribution
-                    ![](/Images/NamePostConsolidationDistribution.png)
+![](/Images/NamePostConsolidationDistribution.png)
 
 
                 - INCOME_AMT
@@ -102,7 +102,7 @@
             - Epochs reduced from 200 to 25 to avoid overfitting
 
     - Optimized accuracy improved and exceeds 75%, the target threshold
-    ![](/Images/PreliminaryModelAccuracy.png)
+![](/Images/PreliminaryModelAccuracy.png)
 
     
 
