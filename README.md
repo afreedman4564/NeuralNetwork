@@ -87,10 +87,10 @@
 
                 - INCOME_AMT
                     - Original distribution
-                    ![](/Images/IncomeAmtOriginalDistribution.png)
+![](/Images/IncomeAmtOriginalDistribution.png)
 
                     - Post consolidation distribution
-                    ![](/Images/IncomeAmtPostConsolidationDistribution.png)
+![](/Images/IncomeAmtPostConsolidationDistribution.png)
 
 
 
