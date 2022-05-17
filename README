@@ -24,29 +24,29 @@
     - Application Type streamline
         - Consolidate Application Types with with frequency less than 500
         - Application Type distribution prior to consolidation
-        ![](/images/ApplicationTypeOriginal.png)
+        ![](/Images/ApplicationTypeOriginal.png)
 
         - Application Type distribution post consolidation
-        ![](/images/ApplicationTypePreprocessing.png)
+        ![](/Images/ApplicationTypePreprocessing.png)
 
 
     - Classification steamline
         - Consolidate Classification valuest with less than 1,000 frequency
         - Classification distribution prior to consolidation
-        ![](/images/ClassificationOriginal.png)
+        ![](/Images/ClassificationOriginal.png)
 
 
         - Classification distribution post consolidation
-        ![](/images/ClassificationPreprocessing.png)
+        ![](/Images/ClassificationPreprocessing.png)
 
 
     - Leverage get_dummies function to convert categorical text values to numbers
     - Illustrative snipit of get_dummies output
-    ![](/images/get_dummies_output.png)
+    ![](/Images/get_dummies_output.png)
 
 
     - Use StandardScaler function to scale feature data post Application Type and Classification consolidation, along with get_dummies transformation
-    ![](/images/get_dummies_output.png)
+    ![](/Images/get_dummies_output.png)
 
 
 ### Model Training
@@ -63,7 +63,7 @@
 
 ### Model Evaluation
     - Model target of 75% accuracy was not achieved in the original run
-    ![](/images/PreliminaryModelAccuracy.png)
+    ![](/Images/PreliminaryModelAccuracy.png)
 
 
     - Improvements made to improve model performance:
@@ -71,26 +71,26 @@
             - Dropped EIN, STATUS, and SPECIAL_CONSIDERATIONS
                 -STATUS and SPECIAL_CONSIDERATIONS distributions values were unilateral, impacting success little
                     - STATUS distribution
-                    ![](/images/StatusDistribution.png)
+                    ![](/Images/StatusDistribution.png)
 
                     - SPECIAL_CONSIDERATIONS distribution
-                    ![](/images/SpecialConsiderationsDistribution.png)
+                    ![](/Images/SpecialConsiderationsDistribution.png)
 
             - Consolidated NAME and INCOME_AMT to better distribute values to make easier for machine to learn
                 - NAME
                     - Original distribution
-                    ![](/images/NameOriginalDistribution.png)
+                    ![](/Images/NameOriginalDistribution.png)
 
                     - Post consolidation distribution
-                    ![](/images/![](/images/NameOriginalDistribution.png)
+                    ![](/Images/![](/images/NameOriginalDistribution.png)
 
 
                 - INCOME_AMT
                     - Original distribution
-                    ![](/images/![](/images/IncomeAmtOriginalDistribution.png)
+                    ![](/Images/![](/images/IncomeAmtOriginalDistribution.png)
 
                     - Post consolidation distribution
-                    ![](/images/![](/images/IncomeAmtPostConsolidationDistribution.png)
+                    ![](/Images/![](/images/IncomeAmtPostConsolidationDistribution.png)
 
 
 
@@ -102,7 +102,7 @@
             - Epochs reduced from 200 to 25 to avoid overfitting
 
     - Optimized accuracy improved and exceeds 75%, the target threshold
-    ![](/images/![](/images/PreliminaryModelAccuracy.png)
+    ![](/images/![](/Images/PreliminaryModelAccuracy.png)
 
     
 
