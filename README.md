@@ -46,7 +46,7 @@
 
 
     - Use StandardScaler function to scale feature data post Application Type and Classification consolidation, along with get_dummies transformation
-    ![](/Images/XTrainedScaled.png)
+    <!-- ![](/Images/XTrainedScaled.png) -->
 
 
 ### Model Training
@@ -79,10 +79,10 @@
             - Consolidated NAME and INCOME_AMT to better distribute values to make easier for machine to learn
                 - NAME
                     - Original distribution
-                    ![](./Images/NameOriginalDistribution.png)
+                    ![](/Images/NameOriginalDistribution.png)
 
                     - Post consolidation distribution
-                    ![](./Images/NamePostConsolidationDistribution.png)
+                    ![](/Images/NamePostConsolidationDistribution.png)
 
 
                 - INCOME_AMT
