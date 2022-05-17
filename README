@@ -82,15 +82,15 @@
                     ![](/Images/NameOriginalDistribution.png)
 
                     - Post consolidation distribution
-                    ![](/Images/![](/images/NameOriginalDistribution.png)
+                    ![](/images/NameOriginalDistribution.png)
 
 
                 - INCOME_AMT
                     - Original distribution
-                    ![](/Images/![](/images/IncomeAmtOriginalDistribution.png)
+                    ![](/images/IncomeAmtOriginalDistribution.png)
 
                     - Post consolidation distribution
-                    ![](/Images/![](/images/IncomeAmtPostConsolidationDistribution.png)
+                    ![](/images/IncomeAmtPostConsolidationDistribution.png)
 
 
 
@@ -102,7 +102,7 @@
             - Epochs reduced from 200 to 25 to avoid overfitting
 
     - Optimized accuracy improved and exceeds 75%, the target threshold
-    ![](/images/![](/Images/PreliminaryModelAccuracy.png)
+    ![](/Images/PreliminaryModelAccuracy.png)
 
     
 
