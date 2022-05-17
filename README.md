@@ -46,7 +46,7 @@
 
 
     - Use StandardScaler function to scale feature data post Application Type and Classification consolidation, along with get_dummies transformation
-    ![](/Images/get_dummies_output.png)
+    ![](/Images/XTrainedScaled.png)
 
 
 ### Model Training
